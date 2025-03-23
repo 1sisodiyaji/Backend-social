@@ -15,7 +15,7 @@ app.options('*', cors(corsOptions));
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
-mongoose.connect('mongodb+srv://u479248971_GoluSuraj:AXmi5s51sgYRWBVo@codesaarthi.pj3kczz.mongodb.net/?retryWrites=true&w=majority&appName=codesaarthi')
+mongoose.connect('mongodb+srv://somashekharchalavadi:d3UM2i3Ofi39PMxt@cluster0.i15uq.mongodb.net/')
 .then(() => console.log('MongoDB Connected'))
 .catch(err => console.error('MongoDB Connection Error:', err));
 
